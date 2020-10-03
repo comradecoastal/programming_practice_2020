@@ -9,7 +9,7 @@ def w(x, a, b, iter):
     return s
 
 
-x = np.arange(-3, 3.01, 0.01)
+x = np.arange(-1.3, 1.3, 0.001)
 a, b = 3, 0.5
 iter = 100
 
