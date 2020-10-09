@@ -11,6 +11,6 @@ p_f2 = np.poly1d(p2)
 
 x_f = np.arange(1, 6, 0.01)
 
-plt.plot(x, y, x_f, p_f(x_f), x_f, p_f2(x_f))
+plt.plot(x, y, x_f, p_f(x_f), label='dick')
 plt.grid(True)
 plt.show()
